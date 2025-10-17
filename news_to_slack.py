@@ -23,12 +23,12 @@ WEEKLY_TOPICS = {
         "keywords": "国内外の音楽ビジネス全般"
     },
     3: {  # 木曜日
-        "name": "生成AI",
-        "keywords": "生成AI"
+        "name": "音楽トレンド",
+        "keywords": "国内外の音楽トレンド"
     },
     4: {  # 金曜日
-        "name": "ITテクノロジー",
-        "keywords": "ITテクノロジー全般"
+        "name": "生成AI",
+        "keywords": "生成AI"
     }
 }
 
@@ -54,7 +54,7 @@ def search_news_with_chatgpt(topic):
 
 日本語で、親しみやすく読みやすい形式でお願いします。
 実際のニュースを検索して、具体的な情報を提供してください。
-対話はせずにニュースの情報だけ伝えてください。
+対話はせずにニュースの情報だけ伝えてください。(相手に返事を促すようなコメントはしない)
 """
 
     response = client.responses.create(
